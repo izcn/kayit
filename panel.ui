@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>471</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Kayıt Uygulaması</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tbl1">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>30</y>
+      <width>381</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="rowCount">
+     <number>30</number>
+    </property>
+    <property name="columnCount">
+     <number>3</number>
+    </property>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column/>
+    <column/>
+    <column/>
+   </widget>
+   <widget class="QComboBox" name="cmb2">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>280</y>
+      <width>151</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Haliç Üniversitesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İstanbul Bilgi Üniversitesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İstanbul Üniversitesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kocaeli Üniversitesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Marmara Üniversitesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Boğaziçi Üniversitesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yıldız Teknik Üniversitesi</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="btn3">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>280</y>
+      <width>99</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Filtrele</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn2">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>280</y>
+      <width>99</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sil</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>50</y>
+      <width>169</width>
+      <height>103</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLineEdit" name="lne1"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lne2"/>
+     </item>
+     <item>
+      <widget class="QComboBox" name="cmb1">
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Haliç Üniversitesi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>İstanbul Üniversitesi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Hacettepe Üniversitesi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>İstanbul Teknik Üniversitesi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Yıldız Teknik Üniversitesi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Gazi Üniversitesi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Boğaziçi Üniversitesi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Orta Doğu Teknik Üniversitesi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kocaeli Üniversitesi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Başkent Üniversitesi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kadir Has Üniversitesi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Yaşar Üniversitesi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>İstanbul Bilgi Üniversitesi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Marmara Üniversitesi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Beykent Üniversitesi</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn1">
+       <property name="text">
+        <string>Ekle</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>50</y>
+      <width>32</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="label1">
+       <property name="text">
+        <string>Ad</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label2">
+       <property name="text">
+        <string>Soyad</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label3">
+       <property name="text">
+        <string>Okul</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>320</y>
+      <width>101</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
